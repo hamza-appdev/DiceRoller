@@ -140,8 +140,8 @@ fun DiceGame(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.SpaceEvenly
             ) {
-                Text("$player1 Score:$player1Score",color = Color.White, fontSize = 16.sp)
-                Text("$player2 Score:$player2Score",color = Color.White, fontSize = 16.sp)
+                Text("$player1 Score:$player1Score",color = Color.White, fontSize = 20.sp)
+                Text("$player2 Score:$player2Score",color = Color.White, fontSize = 20.sp)
             }
         }
 
